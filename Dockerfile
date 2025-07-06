@@ -1,5 +1,7 @@
 FROM node:18-alpine as build
 
+#docker frontend
+
 WORKDIR /app
 
 COPY package*.json ./
